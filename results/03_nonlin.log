@@ -1,0 +1,57 @@
+=== A: non-linearities ===
+eps=0.0185 s=0 linear        t1=   3 t2= 199 eps_env=0.0185 eps_ray=0.0185 O_max=+1.000
+eps=0.0185 s=0 linear+orthW  t1= nan t2= nan eps_env=nan eps_ray=0.0185 O_max=+0.598
+eps=0.0185 s=0 tanh          t1=   4 t2= 199 eps_env=0.0200 eps_ray=0.0185 O_max=+1.000
+eps=0.0185 s=0 relu          t1=   4 t2= 161 eps_env=0.0185 eps_ray=0.0185 O_max=+1.000
+eps=0.0185 s=0 tanh+renorm   t1=   4 t2= 199 eps_env=0.0017 eps_ray=0.0185 O_max=+1.000
+eps=0.0184 s=1 linear        t1=   3 t2= 199 eps_env=0.0184 eps_ray=0.0184 O_max=+1.000
+eps=0.0184 s=1 linear+orthW  t1= nan t2= nan eps_env=nan eps_ray=0.0184 O_max=+0.431
+eps=0.0184 s=1 tanh          t1=   4 t2= 199 eps_env=0.0200 eps_ray=0.0184 O_max=+1.000
+eps=0.0184 s=1 relu          t1=   4 t2= 161 eps_env=0.0184 eps_ray=0.0184 O_max=+1.000
+eps=0.0184 s=1 tanh+renorm   t1=   4 t2= 199 eps_env=0.0005 eps_ray=0.0184 O_max=+1.000
+eps=0.0433 s=0 linear        t1=   3 t2= 161 eps_env=0.0433 eps_ray=0.0433 O_max=+1.000
+eps=0.0433 s=0 linear+orthW  t1= nan t2= nan eps_env=nan eps_ray=0.0433 O_max=+0.457
+eps=0.0433 s=0 tanh          t1=   4 t2= 145 eps_env=0.0443 eps_ray=0.0433 O_max=+1.000
+eps=0.0433 s=0 relu          t1=   4 t2=  68 eps_env=0.0433 eps_ray=0.0433 O_max=+1.000
+eps=0.0433 s=0 tanh+renorm   t1=   4 t2= 156 eps_env=0.0185 eps_ray=0.0433 O_max=+1.000
+eps=0.0446 s=1 linear        t1=   3 t2= 152 eps_env=0.0446 eps_ray=0.0446 O_max=+1.000
+eps=0.0446 s=1 linear+orthW  t1= nan t2= nan eps_env=nan eps_ray=0.0446 O_max=+0.666
+eps=0.0446 s=1 tanh          t1=   4 t2= 145 eps_env=0.0454 eps_ray=0.0446 O_max=+1.000
+eps=0.0446 s=1 relu          t1=   4 t2=  66 eps_env=0.0446 eps_ray=0.0446 O_max=+1.000
+eps=0.0446 s=1 tanh+renorm   t1=   4 t2= 146 eps_env=0.0203 eps_ray=0.0446 O_max=+1.000
+eps=0.0882 s=0 linear        t1=   3 t2=  71 eps_env=0.0882 eps_ray=0.0882 O_max=+1.000
+eps=0.0882 s=0 linear+orthW  t1= nan t2= nan eps_env=nan eps_ray=0.0882 O_max=+0.602
+eps=0.0882 s=0 tanh          t1=   4 t2=  69 eps_env=0.0893 eps_ray=0.0882 O_max=+1.000
+eps=0.0882 s=0 relu          t1=   4 t2=  32 eps_env=0.0882 eps_ray=0.0882 O_max=+1.000
+eps=0.0882 s=0 tanh+renorm   t1=   4 t2=  70 eps_env=0.0427 eps_ray=0.0882 O_max=+1.000
+eps=0.0872 s=1 linear        t1=   3 t2=  77 eps_env=0.0872 eps_ray=0.0872 O_max=+1.000
+eps=0.0872 s=1 linear+orthW  t1= nan t2= nan eps_env=nan eps_ray=0.0872 O_max=+0.512
+eps=0.0872 s=1 tanh          t1=   4 t2=  72 eps_env=0.0882 eps_ray=0.0872 O_max=+1.000
+eps=0.0872 s=1 relu          t1=   4 t2=  33 eps_env=0.0872 eps_ray=0.0872 O_max=+1.000
+eps=0.0872 s=1 tanh+renorm   t1=   4 t2=  74 eps_env=0.0395 eps_ray=0.0872 O_max=+1.000
+eps=0.1743 s=0 linear        t1=   3 t2=  35 eps_env=0.1743 eps_ray=0.1743 O_max=+1.000
+eps=0.1743 s=0 linear+orthW  t1= nan t2= nan eps_env=nan eps_ray=0.1743 O_max=+0.425
+eps=0.1743 s=0 tanh          t1=   4 t2=  34 eps_env=0.1749 eps_ray=0.1743 O_max=+1.000
+eps=0.1743 s=0 relu          t1=   4 t2=  16 eps_env=0.1744 eps_ray=0.1743 O_max=+1.000
+eps=0.1743 s=0 tanh+renorm   t1=   4 t2=  35 eps_env=0.0908 eps_ray=0.1743 O_max=+1.000
+eps=0.1790 s=1 linear        t1=   3 t2=  34 eps_env=0.1791 eps_ray=0.1790 O_max=+1.000
+eps=0.1790 s=1 linear+orthW  t1= nan t2= nan eps_env=nan eps_ray=0.1790 O_max=+0.486
+eps=0.1790 s=1 tanh          t1=   4 t2=  34 eps_env=0.1795 eps_ray=0.1790 O_max=+1.000
+eps=0.1790 s=1 relu          t1=   4 t2=  15 eps_env=0.1791 eps_ray=0.1790 O_max=+1.000
+eps=0.1790 s=1 tanh+renorm   t1=   4 t2=  35 eps_env=0.0911 eps_ray=0.1790 O_max=+1.000
+
+=== B: negative self-loop (rectification) ===
+eps=0.0433 a=0.0000 (=0.00 a*) eps_eff=+0.0433 delta_eff=+0.790 | t1=   3 t2= 161 life=158.0 measured_eps_eff=+0.0433
+eps=0.0433 a=0.0054 (=0.25 a*) eps_eff=+0.0327 delta_eff=+0.783 | t1=   3 t2= 199 life=196.0 measured_eps_eff=+0.0327
+eps=0.0433 a=0.0108 (=0.50 a*) eps_eff=+0.0219 delta_eff=+0.776 | t1=   3 t2= 199 life=196.0 measured_eps_eff=+0.0219
+eps=0.0433 a=0.0217 (=1.00 a*) eps_eff=-0.0000 delta_eff=+0.763 | t1=   3 t2= 199 life=196.0 measured_eps_eff=+0.0000
+eps=0.0433 a=0.0433 (=2.00 a*) eps_eff=-0.0453 delta_eff=+0.739 | t1=   3 t2= 199 life=196.0 measured_eps_eff=-0.0453
+eps=0.0433 a=0.0867 (=4.00 a*) eps_eff=-0.1423 delta_eff=+0.694 | t1=   3 t2= 199 life=196.0 measured_eps_eff=-0.1423
+eps=0.1339 a=0.0000 (=0.00 a*) eps_eff=+0.1339 delta_eff=+0.688 | t1=   3 t2=  47 life= 44.0 measured_eps_eff=+0.1339
+eps=0.1339 a=0.0167 (=0.25 a*) eps_eff=+0.1021 delta_eff=+0.669 | t1=   3 t2=  64 life= 61.0 measured_eps_eff=+0.1021
+eps=0.1339 a=0.0335 (=0.50 a*) eps_eff=+0.0692 delta_eff=+0.652 | t1=   3 t2=  96 life= 93.0 measured_eps_eff=+0.0692
+eps=0.1339 a=0.0669 (=1.00 a*) eps_eff=+0.0000 delta_eff=+0.619 | t1=   3 t2= 199 life=196.0 measured_eps_eff=+0.0000
+eps=0.1339 a=0.1339 (=2.00 a*) eps_eff=-0.1545 delta_eff=+0.563 | t1=   3 t2= 199 life=196.0 measured_eps_eff=-0.1545
+eps=0.1339 a=0.2677 (=4.00 a*) eps_eff=-0.5484 delta_eff=+0.478 | t1=   3 t2= 199 life=196.0 measured_eps_eff=-0.5484
+
+wrote /Users/na/heterophillicGNN/results/03_nonlinear_and_filters.json

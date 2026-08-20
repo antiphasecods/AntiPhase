@@ -1,0 +1,41 @@
+Downloading https://www.dropbox.com/s/yh4grpeks87ugr2/DBLP_processed.zip?dl=1
+Extracting /Users/na/heterophillicGNN/data/dblp/raw/DBLP_processed.zip
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/-Users-na-heterophillicGNN/1f3473f0-5245-45b9-975f-70b5fcdedfb2/scratchpad/run_dblp.py", line 11, in <module>
+    name, A, X, side = exp4.hetero_bipartite("DBLP", DBLP, "data/dblp", "paper")
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/na/heterophillicGNN/experiments/04_real_bipartite.py", line 67, in hetero_bipartite
+    d = cls(str(ROOT / root))[0]
+        ~~~^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/torch_geometric/datasets/dblp.py", line 91, in __init__
+    super().__init__(root, transform, pre_transform,
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     force_reload=force_reload)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/torch_geometric/data/in_memory_dataset.py", line 81, in __init__
+    super().__init__(root, transform, pre_transform, pre_filter, log,
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     force_reload)
+                     ^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/torch_geometric/data/dataset.py", line 112, in __init__
+    self._download()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/lib/python3.14/site-packages/torch_geometric/data/dataset.py", line 230, in _download
+    self.download()
+    ~~~~~~~~~~~~~^^
+  File "/opt/homebrew/lib/python3.14/site-packages/torch_geometric/datasets/dblp.py", line 108, in download
+    extract_zip(path, self.raw_dir)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/torch_geometric/data/extract.py", line 45, in extract_zip
+    f.extractall(folder)
+    ~~~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/zipfile/__init__.py", line 1854, in extractall
+    self._extract_member(zipinfo, path, pwd)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/zipfile/__init__.py", line 1916, in _extract_member
+    shutil.copyfileobj(source, target)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/shutil.py", line 257, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+OSError: [Errno 5] Input/output error

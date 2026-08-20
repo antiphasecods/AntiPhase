@@ -1,0 +1,22 @@
+--- SyntheticBipartite: n=3000 m=29882 ---
+SyntheticBipartite q=0.0    n=  3000 lam_n=-1.000000 eps=0.00000 (Rayleigh 0.00000) lam2=0.4350 d-=+0.8324 | t1=   3 t2= 299 (pred   2.8,    inf) O=+1.000
+SyntheticBipartite q=0.002  n=  3000 lam_n=-0.996374 eps=0.00363 (Rayleigh 0.00363) lam2=0.4347 d-=+0.8295 | t1=   3 t2= 299 (pred   2.8, 1846.9) O=+1.000
+SyntheticBipartite q=0.005  n=  3000 lam_n=-0.991078 eps=0.00892 (Rayleigh 0.00892) lam2=0.4341 d-=+0.8255 | t1=   3 t2= 299 (pred   2.8,  748.3) O=+1.000
+SyntheticBipartite q=0.01   n=  3000 lam_n=-0.982347 eps=0.01765 (Rayleigh 0.01765) lam2=0.4332 d-=+0.8188 | t1=   3 t2= 299 (pred   2.8,  376.6) O=+1.000
+SyntheticBipartite q=0.02   n=  3000 lam_n=-0.964528 eps=0.03547 (Rayleigh 0.03547) lam2=0.4296 d-=+0.8043 | t1=   3 t2= 185 (pred   2.9,  185.8) O=+1.000
+SyntheticBipartite q=0.05   n=  3000 lam_n=-0.913943 eps=0.08606 (Rayleigh 0.08606) lam2=0.4245 d-=+0.7656 | t1=   3 t2=  73 (pred   3.0,   74.4) O=+1.000
+SyntheticBipartite q=0.1    n=  3000 lam_n=-0.834955 eps=0.16505 (Rayleigh 0.16505) lam2=0.4142 d-=+0.6935 | t1=   3 t2=  36 (pred   3.3,   37.1) O=+1.000
+SyntheticBipartite q=0.2    n=  3000 lam_n=-0.696576 eps=0.30342 (Rayleigh 0.30342) lam2=0.3963 d-=+0.5600 | t1=   4 t2=  17 (pred   4.2,   18.5) O=+1.000
+SyntheticBipartite q=0.4    n=  3000 lam_n=-0.471374 eps=0.52863 (Rayleigh 0.52892) lam2=0.3692 d-=+0.2427 | t1=   8 t2=   8 (pred   9.9,    8.9) O=+1.000
+--- MovieLens100K: n=2625 m=80000 ---
+MovieLens100K      q=0.0    n=  2593 lam_n=-1.000000 eps=0.00000 (Rayleigh 0.00000) lam2=0.6582 d-=+0.4182 | t1=   4 t2= 299 (pred   7.8,1226507159170867.2) O=+1.000
+MovieLens100K      q=0.002  n=  2596 lam_n=-0.996692 eps=0.00331 (Rayleigh 0.00331) lam2=0.6572 d-=+0.4165 | t1=   4 t2= 299 (pred   7.8,  903.1) O=+1.000
+MovieLens100K      q=0.005  n=  2602 lam_n=-0.991659 eps=0.00834 (Rayleigh 0.00834) lam2=0.7146 d-=+0.3277 | t1=   4 t2= 299 (pred   9.9,  356.7) O=+1.000
+MovieLens100K      q=0.01   n=  2603 lam_n=-0.983553 eps=0.01645 (Rayleigh 0.01645) lam2=0.6500 d-=+0.4141 | t1=   4 t2= 179 (pred   7.9,  179.7) O=+1.000
+MovieLens100K      q=0.02   n=  2610 lam_n=-0.968282 eps=0.03172 (Rayleigh 0.03172) lam2=0.6411 d-=+0.4123 | t1=   4 t2=  91 (pred   7.9,   92.0) O=+1.000
+MovieLens100K      q=0.05   n=  2623 lam_n=-0.929169 eps=0.07083 (Rayleigh 0.07083) lam2=0.6190 d-=+0.4062 | t1=   4 t2=  39 (pred   8.1,   39.8) O=+1.000
+MovieLens100K      q=0.1    n=  2625 lam_n=-0.875555 eps=0.12444 (Rayleigh 0.12445) lam2=0.5919 d-=+0.3915 | t1=   4 t2=  21 (pred   8.6,   21.6) O=+1.000
+MovieLens100K      q=0.2    n=  2625 lam_n=-0.795271 eps=0.20473 (Rayleigh 0.20557) lam2=0.5483 d-=+0.3718 | t1=   4 t2=  11 (pred   9.2,   12.1) O=+1.000
+MovieLens100K      q=0.4    n=  2625 lam_n=-0.687093 eps=0.31291 (Rayleigh 0.33560) lam2=0.5070 d-=+0.3040 | t1=   6 t2=   6 (pred  11.7,    7.0) O=+1.000
+
+wrote /Users/na/heterophillicGNN/results/04_real_bipartite.json
