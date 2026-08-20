@@ -48,11 +48,30 @@ impossible.  Replaced by two:
    tanh, ReLU, per-layer renormalisation, and every combination.  This is the
    one to put in the paper.
 
+## Data
+
+All 17 real-graph datasets are public benchmarks pulled automatically by
+[PyTorch Geometric](https://pytorch-geometric.readthedocs.io/) on first use —
+no manual download or preprocessing. Each `experiments/0N_*.py` script
+downloads into `data/<name>/` (created on demand) the first time it runs.
+
+| Source (`torch_geometric.datasets`) | Datasets | Used by |
+|---|---|---|
+| `Planetoid` | Cora, CiteSeer, PubMed | `02_real_spectra.py` |
+| `WebKB` | Texas, Wisconsin, Cornell | `02_real_spectra.py` |
+| `WikipediaNetwork` (`geom_gcn_preprocess=True`) | chameleon, squirrel | `02_real_spectra.py` |
+| `Actor` | actor | `02_real_spectra.py` |
+| `HeterophilousGraphDataset` | Roman-empire, Amazon-ratings, Minesweeper, Tolokers, Questions | `02_real_spectra.py` |
+| `MovieLens100K` | ml100k | `04_real_bipartite.py` |
+| `DBLP`, `IMDB` | dblp, imdb | `04_real_bipartite.py` |
+
+`data/` is gitignored — datasets are not checked into this repo, only the
+code that fetches and audits them. `results/` holds the derived numbers
+(per-graph `eps`, `delta^-`, homophily, etc.) and logs from those runs, which
+*are* checked in.
+
 ## Layout
 
     src/hetero_osc/   spectra, sbm, propagate, diagnostics, theory
     experiments/      01..04 + make_figures.py
     results/          json + logs      figures/  fig1..fig5
-    notes/literature.md   citation map, positioning, verification status
-
-Data lives on the external SSD via `data -> /Volumes/ExternalSSD/heterophilic_gnn/data`.
